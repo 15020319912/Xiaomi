@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+	--w: 1200px;
+}
+
+.tonglan {
+	min-width: var(--w);
+}
+
+.w {
+	width: var(--w);
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	font-size: 0;
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
